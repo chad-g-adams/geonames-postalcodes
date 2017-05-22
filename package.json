@@ -1,0 +1,27 @@
+{
+  "name": "geonames-postalcodes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chad-g-adams/geonames-postalcodes.git"
+  },
+  "keywords": [
+    "geonames",
+    "postal",
+    "code"
+  ],
+  "author": "Chad Adams",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chad-g-adams/geonames-postalcodes/issues"
+  },
+  "homepage": "https://github.com/chad-g-adams/geonames-postalcodes#readme",
+  "dependencies": {
+    "lunr": "2.0.3"
+  }
+}
