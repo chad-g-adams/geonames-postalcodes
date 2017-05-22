@@ -32,7 +32,7 @@ http://download.geonames.org/export/zip/
 
 # Usage:
 
-```
+```javascript
 let geonamesPostalCodes = require('geonames-postalcodes');
 
 // load data file from local file system,
