@@ -9,6 +9,7 @@ you are required to provide credit. See geonames.org.
 
 The data file is expected to contain the following format:
 
+```
 The data format is tab-delimited text in utf8 encoding, with the following fields :
 
 country code      : iso country code, 2 characters
@@ -23,6 +24,7 @@ admin code3       : 3. order subdivision (community) varchar(20)
 latitude          : estimated latitude (wgs84)
 longitude         : estimated longitude (wgs84)
 accuracy          : accuracy of lat/lng from 1=estimated to 6=centroid
+```
 
 Reference:
 http://download.geonames.org/export/zip/
