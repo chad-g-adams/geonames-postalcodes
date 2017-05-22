@@ -1,7 +1,7 @@
 {
   "name": "geonames-postalcodes",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "In-memory postal code search based on Geonames data",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
