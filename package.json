@@ -1,6 +1,6 @@
 {
   "name": "geonames-postalcodes",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "In-memory postal code search based on Geonames data",
   "main": "index.js",
   "scripts": {
