@@ -32,11 +32,13 @@ http://download.geonames.org/export/zip/
 # Usage:
 
 ```
+let geonamesPostalCodes = require('geonames-postalcodes');
+
 // load data file from local file system,
 // reference: http://download.geonames.org/export/zip/
 geonamesPostalCodes.init('./CA.txt');
 
-entry = geonamesPostalCodes.postalCodeExactLookup('K2K');
+let entry = geonamesPostalCodes.postalCodeExactLookup('K2K');
 console.log(entry);
 /*
 {
@@ -56,7 +58,7 @@ console.log(entry);
 */
 
 
-entries = geonamesPostalCodes.postalCodeSearch('K2');
+let entries = geonamesPostalCodes.postalCodeSearch('K2');
 console.log(entries);
 // [array of entries with same format as above]
 
