@@ -3,7 +3,8 @@
 In-memory postal code lookup and search function based on Geonames dataset.
 
 Note: no data is supplied by this project. If you make use of Geonames data,
-you are required to provide credit. See geonames.org.
+you are required to provide credit to Geonames. See [geonames.org](geonames.org)
+for details.
 
 # Data Format:
 
